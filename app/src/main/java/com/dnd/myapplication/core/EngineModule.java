@@ -1,4 +1,5 @@
 package com.dnd.myapplication.core;
 
-public interface EngineModule {
+public interface EngineModule extends Lifecycle {
+    String getName();
 }
